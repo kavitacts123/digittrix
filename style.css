@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+@font-face {
+    font-family: 'SaltCity';
+    src: url('fonts/SaltCity.ttf') format('truetype');
+    /* Adjust the path */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* navbar */
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+.bg {
+    background-image: url(./images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a.nav-link.dropdown-toggle {
+    margin-left: 0;
+}
+
+p.banner-person-name {
+    position: absolute;
+    top: 33rem;
+    color: white;
+    right: 40rem;
+}
+
+img.star {
+    width: 95px;
+    height: 15px;
+    object-fit: cover;
+}
+
+img.white-arrow {
+    width: 21px;
+    height: 12px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.py_0 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul.navbar-nav {
+    margin-left: auto;
+}
+
+img.logo-img {
+    width: 139px;
+    height: 40px;
+}
+
+li.nav-item.dropdown {
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 3rem;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+
+img.notification-img {
+    width: 25px;
+    height: 30px;
+}
+
+img.chat-img {
+    width: 30px;
+    height: 30px;
+}
+
+img.girl-img {
+    width: 50px;
+    height: 50px;
+}
+
+img.location-img {
+    width: 10px;
+    height: 14px;
+    object-fit: cover;
+}
+
+
+/* banner */
+
+img.banner-img {
+    width: 380px;
+    height: 520px;
+    object-fit: cover;
+}
+
+span {
+    font-family: 'SaltCity', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.banner-heading {
+    margin-top: 5rem;
+    margin-right: 6rem;
+}
+
+input.form-control.me-2,
+.search-form {
+    position: relative;
+    height: 50px;
+    width: 750px;
+}
+
+button.search-button {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    text-align: center;
+    background-color: rgba(31, 78, 161, 1) !important;
+    padding: 5px 20px;
+    width: 148px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.heading-h2 {
+    margin-bottom: 2rem;
+}
+
+.banner-text-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+    color: white;
+}
+hr {
+    margin: 2rem 0;
+    opacity: 0.9;
+}
+
+.education-text {
+    display: flex;
+    align-items: flex-start;
+}
+
+img.education-img {
+    width: 40px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.Institutes {
+    margin-left: 10rem;
+    display: flex
+}
+
+.educational-banner {
+    display: flex;
+    margin-top: 8rem;
+    color: white;
+}
+
+.consultants-text {
+    text-align: center;
+    padding: 5px;
+    margin-top: 20rem;
+}
+
+h3.heading-h3 {
+    color: rgba(28, 76, 160, 1);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.consultants-text-p {
+    font-size: 16px;
+}
+
+button.view-all {
+    background: rgba(28, 76, 160, 1);
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.message-img {
+    width: 14px;
+    height: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.testimonials-heading {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.view-all-button {
+    margin-left: auto;
+}
+
+.card {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+img.consultants-image {
+    padding: 10px;
+}
+
+.card-line {
+    border-top: 1px solid rgba(180, 180, 180, 1);
+    display: flex;
+    padding-top: 10px;
+}
+
+.message-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+a.btn.btn-primary {
+    background: rgba(28, 76, 160, 1);
+}
+
+.popular-institutes {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 10px;
+    font-weight: 700;
+}
+
+p.card-text {
+    margin-bottom: 10px;
+}
+
+img.green-arrow {
+    width: 21px;
+    height: 11px;
+    object-fit: cover;
+}
+
+a.read-more {
+    color: rgba(29, 191, 115, 1);
+    text-decoration: none;
+}
+
+img.testimonial-img1,
+img.testimonial-img2,
+img.testimonial-img3 {
+    height: 90px;
+    width: 80px;
+    position: absolute;
+    object-fit: cover;
+    top: -70px;
+    left: 20px;
+}
+
+p.testimonials-text-p {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    height: 100%;
+    min-height: 126px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.testimonials-card {
+    position: relative;
+}
+
+strong {
+    position: absolute;
+    top: -4rem;
+    left: 8rem;
+}
+
+img.stars {
+    width: 95px;
+    height: 15px;
+    position: absolute;
+    top: -2rem;
+    left: 8rem;
+}
+
+.recent-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer {
+    background: rgba(31, 79, 166, 1);
+    color: white;
+    font-family: "Montserrat", serif;
+}
+
+.footer-logo {
+    width: 153px;
+    height: 61px;
+    object-fit: contain;
+}
+
+li {
+    font-size: 16px;
+    list-style: none;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+.copyright {
+    background: rgba(12, 65, 151, 1);
+    text-align: center;
+    padding: 10px;
+}
+
+p.copyright-text {
+    margin-bottom: 0;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+@media (max-width: 1280px){
+    .card {
+        width: 17rem !important;
+    }
+    .consultants-text {
+        margin-top: 14rem;
+    }
+    p.testimonials-text-p {
+        padding: 25px 10px;
+    }
+    
+}
+
+@media (max-width: 1199px){
+    a.nav-link {
+        font-size: 14px;
+
+    }
+    input.form-control.me-2, .search-form {
+        width: 520px;
+    }
+    img.banner-img {
+        width: 100%;
+        height: 526px;
+        object-fit: cover;
+    }
+    p.banner-person-name {
+        position: absolute;
+        top: 35rem;
+        color: white;
+        right: 2rem;
+    }
+    h3.heading-h3 {
+        font-size: 22px;
+    }
+    .consultants-text-p {
+        font-size: 12px;
+    }
+    span {
+        font-size: 40px;
+    }
+    .card {
+        width: 14rem !important;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p.card-text {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    a.btn.btn-primary {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    h6{
+        font-size: 14px;
+    }
+    .message-img {
+        width: 17px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .card-body {
+        padding: 3px 10px;
+    }
+    p.testimonials-text-p {
+        padding: 28px 10px;
+        font-size: 12px;
+        min-height: 110px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 575px) {
+
+    input.form-control.me-2,
+    .search-form {
+        width: 405px;
+    }
+
+    .educational-banner {
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .Institutes {
+        margin-left: 0;
+        display: inline-flex;
+
+    }
+    .card {
+        width: 12rem !important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* mobile-menu */
+
+    .mobile-menu .search-container {
+        display: flex;
+        align-items: center;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .mobile-menu .search-container input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 0;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .mobile-menu .search-container .mic {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #555;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .change-text {
+        color: rgba(32, 78, 162, 1);
+        margin-left: auto;
+        font-size: 10px;
+        text-decoration: underline;
+        margin-top: 5px;
+    }
+
+    .mobile-menu-img1 img,
+    .mobile-menu-img2 img,
+    .mobile-menu-img3 img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-image {
+        position: relative;
+    }
+
+    .carousel-text {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        bottom: 0;
+        color: white;
+        width: 100%;
+        left: 6px;
+    }
+
+    .min {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 5px 12px;
+        background: rgba(2, 52, 193, 1);
+        color: white;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+
+    .rating {
+        display: flex;
+        margin-bottom: 5px;
+        padding: 0 15px;
+        margin-left: 5px;
+    }
+
+    .carousel-stars {
+        margin-left: auto;
+    }
+    .rating-stars{
+        height: 18px;
+        width: 18px;
+        object-fit: cover;
+        margin-right: 5px;
+    }
+    p.carousel-p {
+        margin-bottom: 0;
+    }
+    .consultants-menu {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .see-all{
+        margin-left: auto;
+    }
+    .card-text{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    img.blog-img {
+        width: 100px !important;
+        height: 90px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    .testimonials-box {
+        display: flex;
+    }
+    a{
+        font-size: 14px;
+    }
+    .green-arrow-mobile{
+        width: 10px !important;
+        height: 6px;
+        margin-left: 5px;
+    }
+    .read-blogs{
+        display: flex;
+        align-items: center;
+    }
+    .blog-text-p{
+        margin-bottom: 0;
+    }
+    .sidebar{
+        position: relative;
+    }
+    .home-tab a {
+        display: block;
+        color: rgba(28, 76, 160, 1);
+        font-size: 12px;
+    }
+    .application-tab a{
+        display: block;
+        color: black;
+        font: 12px;
+    }
+    .profile-tab a{
+        display: block;
+        color: black;
+        font: 12px;
+    }
+    .home-img-tab{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .app-img-tab{
+        width: 21px;
+        height: 25px;
+        object-fit: cover;
+    }
+    .profile-img-tab{
+        width: 20px;
+        height: 25px;
+        object-fit: cover;
+    }
+
+    .bottom-navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        border-top: 1px solid #ddd;
+        z-index: 999;
+    }
+    
+    .bottom-navbar .tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .bottom-navbar img {
+        width: 24px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    
+    .bottom-navbar a {
+        text-decoration: none;
+        font-size: 14px;
+        color: inherit;
+    }
+    section.mobile-menu.blogs.py_0 {
+        padding-bottom: 100px;
+    }
+    .lorem{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    img.lorem-img {
+        width: 100%;
+    }
+    .lorem-text {
+        position: absolute;
+        top: 15px;
+        left: 4rem;
+        
+    }
+    
+    
+
+}
+
+@media (max-width: 376px) {
+    .card {
+        width: 11rem !important;
+    }
+    .bottom-navbar a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 321px) {
+    .card {
+        width: 9rem !important;
+    }
+}
