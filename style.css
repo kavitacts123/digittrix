@@ -877,4 +877,7 @@ p.copyright-text {
     .rating-stars {
         height: 12px;
     }
+    .card {
+        width: 9rem !important;
+    }
 }
